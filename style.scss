@@ -121,18 +121,37 @@ footer {
   }
 }
 
-@media screen and (max-width: 320px) {
+// Media Queries
+@media screen and (max-width: 480px) {
   p {
-    font-size: 30px;
-  }
-  nav .menuItems {
-    flex-direction: column; /* Switch to column layout on smaller screens */
-    justify-content: center;
-    align-items: center; /* Center items horizontally */
+    font-size: 60px;
   }
 
-  nav .menuItems li {
-    margin: 10px 0; /* Adjust margin for vertical spacing */
-    text-align: center;
+  nav .menuItems {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  p {
+    font-size: 50px;
+  }
+
+  nav .menuItems {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 10px 0;
+      text-align: center;
+    }
   }
 }
