@@ -121,13 +121,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
-   p {
-    font-size: 20px;
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 60px; /* Adjust font size for smaller screens */
   }
   nav .menuItems {
     flex-direction: column; /* Switch to column layout on smaller screens */
     justify-content: center;
+    align-items: center; /* Center items horizontally */
   }
 
   nav .menuItems li {
@@ -135,3 +136,4 @@ footer {
     text-align: center;
   }
 }
+
