@@ -122,6 +122,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+   p {
+    font-size: 80px;
+  }
   nav .menuItems {
     flex-direction: column; /* Switch to column layout on smaller screens */
     justify-content: center;
