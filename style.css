@@ -105,10 +105,14 @@ footer a:hover {
   border-bottom: 1px transparent;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
   nav .menuItems {
     flex-direction: column; /* Switch to column layout on smaller screens */
     justify-content: center;
+    align-items: center; /* Center items horizontally */
   }
   nav .menuItems li {
     margin: 10px 0; /* Adjust margin for vertical spacing */
